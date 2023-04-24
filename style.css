@@ -5,16 +5,16 @@ body {
   font-family: Lato, sans-serif;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h2 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .main__article {
@@ -35,7 +35,7 @@ input,button{
   .main__article { 
 		text-align: center;
 	}
-	
+
 }
 
 .todo {
@@ -84,7 +84,7 @@ input,button{
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   color: #888;
 	width: 226px
 }
@@ -142,14 +142,14 @@ input,button{
 
 /* Edit Task */
 .uncompleted .section__input{
-	display:none
+	display: none
 }
 
 .edit-mode .section__input{
-	display:inline-block;
-  width:224px
+	display: inline-block;
+  width: 224px
 }
 
 .edit-mode .section__label {
-  display:none;
+  display: none;
 }
