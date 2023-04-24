@@ -4,6 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 ul {
   margin: 0;
   padding: 0px;
@@ -25,9 +26,11 @@ button{
   display: block;
   text-align: right;
 }
+
 .article__image{
   width: 100%;
 }
+
 .article__link {
   font-family: fantasy, cursive;
 }
@@ -45,12 +48,14 @@ button{
   width: 500px;
   margin: 0 auto 0;
 }
+
 .section__input,
 .section__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .section__wrapper  {
   display: flex;
 }
@@ -64,9 +69,11 @@ button{
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -77,6 +84,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .section__input {
   margin: 0;
   font-size: 18px;
@@ -90,6 +98,7 @@ button{
   color: #888;
 	width: 226px;
 }
+
 .section__input:focus {
   color: #333;
 }
@@ -99,6 +108,7 @@ button{
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item .section__input {
   width: 318px;
 }
@@ -113,6 +123,7 @@ button{
   justify-content: space-between;
   align-items: center;
 }
+
 .section__item > * {
   vertical-align: middle;
 }
@@ -120,6 +131,7 @@ button{
 .section__checkbox {
   margin: 0 10px;
 }
+
 .section__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -132,6 +144,7 @@ button{
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn__image:hover {
   transform: rotateZ(0);
 }
