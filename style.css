@@ -47,7 +47,7 @@ input,button{
 .section__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .section__wrapper  {
   display: flex;
@@ -86,7 +86,7 @@ input,button{
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-	width: 226px
+	width: 226px;
 }
 .section__input:focus {
   color: #333;
@@ -142,12 +142,12 @@ input,button{
 
 /* Edit Task */
 .uncompleted .section__input{
-	display: none
+	display: none;
 }
 
 .edit-mode .section__input{
 	display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .section__label {
