@@ -16,7 +16,6 @@ var completedTasksHolder = document.querySelector(".completed .section__items");
 
 //New task list item
 var createNewTaskElement = function (taskString) {
-  console.log(1);
   var listItem = document.createElement("li");
   listItem.className = "section__item";
 
@@ -53,7 +52,6 @@ var createNewTaskElement = function (taskString) {
   deleteButtonImg.src = "./remove.svg";
   deleteButtonImg.alt = "";
   deleteButton.appendChild(deleteButtonImg);
-  console.log(3);
 
   //and appending.
   listItem.appendChild(checkBox);
@@ -66,7 +64,6 @@ var createNewTaskElement = function (taskString) {
 
 var addTask = function () {
   console.log("Add Task...");
-  console.log(taskInput.value);
   //Create a new list item with the text from the #new-task:
   if (!taskInput.value) return;
   var listItem = createNewTaskElement(taskInput.value);
