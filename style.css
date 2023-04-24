@@ -155,6 +155,11 @@ button{
   color: #888;
 }
 
+.completed .section__input{
+	display: none;
+}
+
+
 /* Edit Task */
 .uncompleted .section__input{
 	display: none;
